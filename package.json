@@ -1,0 +1,33 @@
+{
+  "name": "wifiblock-service",
+  "version": "1.0.0",
+  "description": "server to provide wifi service ",
+  "main": "app.js",
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "ip": "^1.1.5",
+    "joi": "^14.3.1",
+    "nedb": "^1.8.0",
+    "secp256k1": "^4.0.0",
+    "sha256": "^0.2.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.2.1"
+    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "wifi",
+    "service",
+    "blockchain"
+  ],
+  "author": "team4",
+  "license": "MIT"
+}
